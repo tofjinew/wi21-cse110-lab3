@@ -1,11 +1,263 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>TIFFANY WU</title>
+    <meta charset="utf-8">
+    <title>Tiffany Wu</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
- 
-  </body>
+    <a name="top"></a>
+    <header><h1>Welcome to Tiffany's HTML page!</h1>
+      <nav>
+        <a href="https://tofjinew.github.io/">Markup Page</a> //
+        <a href="#Gallery">Gallery</a> // 
+        <a href="#About You">Join</a>
+      </nav>
+    </header>
 
-</html> 
+    <main>
+      <h2>About Me</h2>
+      <section>
+        <h3><span style="color:Crimson">Apple Aficionado </span></h3>
+        <figure>
+          <picture>
+            <img src="cosmicapple2.jpg" alt="Cosmic Crisp Apple" style="width:100%">
+          </picture>
+          <figcaption><i>My favorite variety so far (source: Smithsonian)</i></figcaption>
+        </figure>
+        <p>I like to try different varietes of <strong>apples</strong>. Here is my current ranking:</p>
+        
+        <ol>
+          <li>Cosmic Crisp 
+          <li>Lucy Glo 
+          <li>Rave 
+          <li>Opal 
+          <li>Crimson Gold
+          <li>Envy
+          <li>Sweet Tango
+        </ol>
+        
+        <aside>
+        Don't take this list too seriously though, because it is based off of a small sample size, my memory of each apple, and my personal taste.
+        </aside>
+      </section>
+      <section>
+        <h2>Not About Me</h2>
+        <div>How many bullets are there?
+        <ul>
+          <li>One?
+          <li>Two?
+          <li>Three?
+        </ul>
+        <b>"Yes, officer. She fired <em>three</em> shots."</b></div>
+
+        <hr>
+        <pre>
+        The trial was neither 
+        speedy nor public
+        and      she struggled
+        to think of 
+
+        CONTENT</pre> 
+
+        <hr>
+        <p>How about some <code>code</code> now?<br>Or how about you click the button if you like apples.</p>
+        <button>I LOVE APPLES</button>
+        <template>Yay apples!</template>
+
+        <hr>
+        <table>
+          <caption>Truth table:</caption>
+          <colgroup>
+            <col span="2">
+          </colgroup>
+          <tr>
+            <th>p</th>
+            <th>q</th>
+            <th>p^q</th>
+          </tr>
+          <tr>
+            <td>T</td>
+            <td>T</td>
+            <td>T</td>
+          </tr>
+          <tr>
+            <td>T</td>
+            <td>F</td>
+            <td>F</td>
+          </tr>
+          <tr>
+            <td>F</td>
+            <td>T</td>
+            <td>F</td>
+          </tr>
+          <tr>
+            <td>F</td>
+            <td>F</td>
+            <td>F</td>
+          </tr>
+        </table> 
+        
+      </section>
+
+      <section>
+        <a name="About You"></a>
+        <h2>About You</h2>
+        <form>
+          <fieldset>
+          <legend>Join the Crispy Apple Curating Krew (CACK)</legend>
+          
+          <p>
+          <label for="name">Name:</label>
+          <input type="text" id="name"><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email"><br>
+
+          <label for="phone">Phone number:</label>
+          <input type="tel" id="phone"><br>
+          
+          <label for="date">Birthday:</label>
+          <input type="date" id="date">
+          </pr>
+
+          <p>
+          <label for="color">Favorite color:</label>
+          <input type="color" id="color"><br>
+
+          <label for="num">Favorite number:</label>
+          <input type="number" id="num"><br>
+
+          <label for="fruit">Favorite fruit:</label>
+          <input list="fruits" id="fruit">
+          <datalist id="fruits">
+            <option value="apple">
+          </datalist><br>
+
+          <label for="cars">Favorite Acceleracers character:</label>
+          <select id="cars">
+            <optgroup label="Teku">
+              <option value="vert">Vert</option>
+              <option value="nolo">Nolo</option>
+              <option value="kurt">Kurt</option>
+              <option value="karma">Karma</option>
+              <option value="shirako">Shirako</option>
+            </optgroup>
+            <optgroup label="Metal Maniacs">
+              <option value="tork">Tork</option>
+              <option value="wylde">Wylde</option>
+              <option value="pork">Pork Chop</option>
+              <option value="monkey">Monkey</option>
+              <option value="taro">Taro</option>
+            </optgroup>
+            <optgroup label="Acceledrome">
+              <option value="tezla">Dr. Tezla</option>
+              <option value="lani">Lani</option>
+              <option value="gig">Gig</option>
+              <option value="sparky">Sparky</option>
+            </optgroup>
+            <optgroup label="Drones">
+              <option value="gelorum">Gelorum</option>
+              <option value="kadeem">Kadeem</option>
+              <option value="drone">Other Drone</option>
+            </optgroup>
+            <optgroup label="Silencerz">
+              <option value="wheeler">Major Wheeler</option>
+              <option value="silencer">Other Silencer</option>
+            </optgroup>
+            <optgroup label="Misc">
+              <option value="acceleron">Acceleron</option>
+              <option value="statue">Ruins Realm Statue</option>
+              <option value="tone">Tone</option>
+            </optgroup>
+          </select><br>
+          </p>
+
+          <p>How did you hear about CACK? <br>
+          <input type="radio" id="class" name="method" value="class">
+          <label for="class">CSE 110</label><br>
+          <input type="radio" id="friend" name="method" value="friend">
+          <label for="friend">Friends/family</label><br>
+          <input type="radio" id="random" name="method" value="random">
+          <label for="random">Just happened to stumble across this webpage on the internet</label><br>
+          <input type="radio" id="other" name="method" value="other">
+          <label for="other">Other</label></p>
+          
+          <p><label for="opinion">What makes an apple good?</label><br>
+          <textarea id="opinion" rows="5" cols="50">I think an apple is good if it's a good apple.</textarea></p>
+
+          <p><label for="resume">Resume/CV:</label>
+          <input type="file" id="resume"></p>
+
+          <p><input type="checkbox" name="promo">
+          <label for="promo">I want to recieve promotional emails</label></p>
+
+          <p><input type="submit" value="Nice to meet you :)"></p>
+          </fieldset>
+        </form>
+
+      </section>
+    </main>
+
+    <section>
+      <a name="Gallery"></a>
+      <h2>Gallery</h2>
+      <div>
+        <svg height="103" width="120">
+          <text x="70" y="-30" fill="green" transform="rotate(30 0,0)">Wow</text>
+          <circle cx="50" cy="60" r="40" stroke="maroon" stroke-width="3" fill="crimson" />
+        </svg> 
+        <details>
+          <summary><i>La pomme</i></summary>
+          <p>This simple depiction of an apple is veiled with evocative abstraction.</p>
+        </details> 
+        <br>
+      </div>
+
+      <div>
+        <audio controls>
+          <source src="AppleCrunch.mp3" type="audio/mpeg">
+          Your browser does not support this audio file.
+        </audio> 
+        <details>
+          <summary><i>Apple Crunch!</i></summary>
+          <p>The sound of an apple being bitten into.</p>
+        </details> 
+        <br>
+      </div>
+
+      <div>
+        <video width="320" height="240" controls>
+          <source src="IMG_1221.MOV" type="video/mp4">
+          Your browser does not support this video.
+        </video> 
+        <details>
+          <summary><i>Hummingbird</i></summary>
+          <p>This is a slow-motion video of a hummingbird. Hummingbirds are known to drink nectar from flowers, including apple blossoms.</p>
+        </details> 
+        <br>
+      </div>
+
+      <div>
+        <canvas width="200" height="150" style="border:1px solid #000000;">
+        </canvas>
+          <details>
+          <summary><i>THE BOX</i></summary>
+          <p>THERE ARE NO APPLES IN THE BOX</p>
+        </details> 
+        <br>
+      </div>
+
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ff1ecYv24-E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <details>
+          <summary><i>Fruit for Kids with Blippi</i></summary>
+          <p>Join Blippi in his fruit for kids video to learn how apples get to the grocery store.</p>
+        </details> <br>
+      </div>
+    </section>
+
+    <footer> <a href="#top">Back to top</a> <br> Last edited: 13 Jan 2021 </footer>
+  </body>
+</html>
