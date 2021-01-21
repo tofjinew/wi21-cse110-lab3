@@ -1,0 +1,24 @@
+header {
+  border-style: dotted; 
+  border-width: 0.1cm;
+  border-color: rgb(72, 141, 8);
+  border-radius: 15px 50px;
+
+  background-color: #89c253;
+
+  padding-left: 0.1in;
+}
+
+nav {
+  color: white;
+  padding-left: 0.3in;
+  padding-bottom: 0.1in;
+}
+
+nav a:link {
+  color: hsl(0, 0, 100);
+}
+
+nav a:visited {
+  color: hsl(91,100,93);
+}
