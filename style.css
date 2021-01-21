@@ -1,3 +1,7 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
 header {
   border-style: dotted; 
   border-width: 0.1cm;
@@ -12,13 +16,18 @@ header {
 nav {
   color: white;
   padding-left: 0.3in;
+  padding-top: 0cm;
   padding-bottom: 0.1in;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 nav a:link {
-  color: hsl(0, 0, 100);
+  color: white;
 }
 
 nav a:visited {
-  color: hsl(91,100,93);
+  color: #ccecb0;
 }
