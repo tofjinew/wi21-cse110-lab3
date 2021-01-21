@@ -5,21 +5,21 @@
 header {
   border-style: dotted; 
   border-width: 0.1cm;
-  border-color: rgb(72, 141, 8);
+  border-color: rgb(64, 124, 9);
   border-radius: 15px 50px;
 
-  background-color: #89c253;
+  background-color: #77a761;
 
-  padding-left: 0.1in;
+  padding: 0.1in 0.1in 0.1in 0.1in;
 }
 
 nav {
   color: white;
   padding-left: 0.3in;
-  padding-top: 0cm;
+  padding-top: 0em;
+  padding-right: 0%;
   padding-bottom: 0.1in;
 }
-
 nav a {
   text-decoration: none;
 }
@@ -30,4 +30,32 @@ nav a:link {
 
 nav a:visited {
   color: #ccecb0;
+}
+
+section {
+  margin-left: 0.1in;
+  margin-right: 0.1in;
+  margin-top: 0in;
+  margin-bottom: 0vh;
+}
+
+section > h2 {
+  border-style: dotted; 
+  border-width: 0.1cm;
+  border-color: rgb(80, 139, 25);
+  border-radius: 15px 50px;
+
+  background-color: #bae09b;
+
+  padding: 0.1in 0.1in 0.05in 0.2in;
+
+  display:inline-block;
+}
+
+hr {
+  margin: 30px 0px;
+}
+
+#love {
+  margin: auto;
 }
