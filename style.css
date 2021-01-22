@@ -2,6 +2,10 @@
   font-family: 'Lato', sans-serif;
 }
 
+body {
+  padding:5%;
+}
+
 header {
   border-style: dotted; 
   border-width: 0.1cm;
@@ -14,17 +18,15 @@ header {
 }
 
 nav {
-  color: white;
-  padding-left: 0.3in;
+  text-align: right;
+  color: hsl(0, 100%, 100%);
+  padding-right: 0.2in;
   padding-top: 0em;
-  padding-right: 0%;
+  padding-left: 0mm;
   padding-bottom: 0.1in;
 }
-nav a {
+nav a, a:link {
   text-decoration: none;
-}
-
-nav a:link {
   color: white;
 }
 
@@ -33,16 +35,23 @@ nav a:visited {
 }
 
 section {
-  margin-left: 0.1in;
-  margin-right: 0.1in;
-  margin-top: 0in;
-  margin-bottom: 0vh;
+  margin-top: 0.1in;
+  margin-bottom: 0.1in;
+  margin-left: 0em;
+  margin-right: 0ch;
+
+  padding: 0.1in 0.3in 0.3in;
+
+  border-style: dotted; 
+  border-width: 0.1cm;
+  border-color: rgb(64, 124, 9);
+  border-radius: 15px 50px;
 }
 
 section > h2 {
   border-style: dotted; 
   border-width: 0.1cm;
-  border-color: rgb(80, 139, 25);
+  border-color: rgb(64, 124, 9);
   border-radius: 15px 50px;
 
   background-color: #bae09b;
@@ -58,4 +67,9 @@ hr {
 
 #love {
   margin: auto;
+}
+
+figure {
+  text-align: center;
+  display: block;
 }
