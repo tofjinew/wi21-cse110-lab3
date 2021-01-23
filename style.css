@@ -25,7 +25,7 @@ nav {
   padding-left: 0mm;
   padding-bottom: 0.1in;
 }
-nav a, a:link {
+nav a, nav a:link {
   text-decoration: none;
   color: white;
 }
@@ -34,7 +34,7 @@ nav a:visited {
   color: #ccecb0;
 }
 
-nav a:hover, a:active {
+a:hover, a:active {
   text-transform: uppercase;
 }
 
@@ -69,7 +69,7 @@ section > h2 {
   display:inline-block;
 }
 
-hr {
+h2 ~ hr {
   margin: 30px 0px;
 }
 
@@ -95,4 +95,30 @@ img {
 
 footer {
   text-align: center;
+  position: initial;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.grid {
+  display:grid;
+  position: relative;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 100px;
+
+  justify-content: space-around;
+}
+
+.grid-item {
+  border-style: solid; 
+  border-width: 0.05cm;
+  border-color: rgb(180, 219, 143);
+}
+
+hr + table, [type=submit] {
+  color: crimson;
 }
