@@ -1,7 +1,12 @@
 Date:
+
 Time started:
+
 Members absent:
+
 Goal of meeting?
+
+<br>
 
 Member 1:
 - Progress made yesterday:
